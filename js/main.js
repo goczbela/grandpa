@@ -1,3 +1,7 @@
+constructor(a,b) {
+  console.log(a*b);
+};
+
 /* COLOR CHOOSING */
 
 /*function setStylesheet(url) {
