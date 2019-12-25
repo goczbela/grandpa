@@ -1,3 +1,5 @@
+console.log("newfeature1");
+
 /* COLOR CHOOSING */
 
 /*function setStylesheet(url) {
