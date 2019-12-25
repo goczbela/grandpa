@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <link id="stylesheet" rel="stylesheet" href="css/homok.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="container">
+        <h1>Nyugdíjas a nagypapi?</h1>
+        <h2>nyugdíjas megmondó szoftver 1.1.34</h2>
+        <p>Írd ide, hogy mennyi idős a nagypapi:</p>
+        <div><input type="number" id="age" placeholder="nn" /></div>
+        <div><button id="mehet">Mehet</button></div>
+        <div id="eredmeny">ez a proba <span>nem</span> dim oj oj</div>
+        <div id="bla"></div>
+      </div>
+      <div id="szinvalaszto">
+        <button id="homok-btn">Homok</button>
+        <button id="tenger-btn">Tenger</button>
+        <button id="erdo-btn">Erdő</button>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("homok-btn")
+        .addEventListener("click", function() {
+          document.getElementById("bla").innerHTML = "Hello World";
+        });
+    </script>
+  </body>
+</html>
