@@ -1,4 +1,5 @@
 console.log("newMaster");
+console.log("newfeature1");
 
 /* COLOR CHOOSING */
 
