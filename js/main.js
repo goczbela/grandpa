@@ -1,6 +1,4 @@
-constructor(a,b) {
-  console.log(a*b);
-};
+console.log("newMaster");
 
 /* COLOR CHOOSING */
 
