@@ -2,6 +2,8 @@ console.log("newMaster");
 console.log("newfeature1");
 console.log("newFeature2");
 
+// just a oneline comment
+
 /* COLOR CHOOSING */
 
 /*function setStylesheet(url) {
